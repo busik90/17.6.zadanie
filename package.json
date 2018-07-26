@@ -1,0 +1,26 @@
+{
+  "name": "17.6.Szablony_HTML",
+  "version": "1.0.0",
+  "description": "17.6. Szablony HTML - praktyczne wykorzystanie",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "Node.js",
+    "ExpressJS",
+    "Middleware",
+    "view engine",
+    "Pug"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "express": "^4.16.3",
+    "pug": "^2.0.3"
+  },
+  "repository": {
+    "type": "GIT",
+    "url": "https://github.com/pawelbus/17.6.zadanie.git"
+  }
+}
