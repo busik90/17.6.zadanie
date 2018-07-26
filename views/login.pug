@@ -1,0 +1,16 @@
+doctype html
+html(lang="pl")
+  head
+    meta(charset="UTF-8")
+    title Google Login
+
+    style
+      include ./css/style.css
+      include ./css/login.css
+  body
+    h1 /nieznana aplikacja:..
+    form(action= url + '/app', method= "GET")
+      label.box(for="user_name") Wpisz twoją nazwę:
+      input.box#user_name(type="text", name="user_name")
+
+      input.box#submit(type="submit" value="wejdź")
